@@ -1,0 +1,44 @@
+{
+  "exploreCategory": [
+    {
+      "id": "1",
+      "name": "Rattan Baskets",
+      "image": "https://www.woodgrain.com//wp-content/uploads/Adult-Natural-Rattan-Petal-Chair-The-Rattan-Company_large-1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Jute Rugs",
+      "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/Ahyan_Handicraft_Colorful_Printed_Jute_F-AHYAN_HANDICRAFT-94936-304841.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Bamboo Furniture",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-2b33d1427f0cc6b09f4370cc718141f5-lq"
+    },
+    {
+      "id": "4",
+      "name": "Wooden Decor",
+      "image": "https://www.sowpeace.in/cdn/shop/products/the-boat-of-hopesowpeacewoodwdhbwdntt-729903.jpg?v=1698021847&width=533"
+    },
+    {
+      "id": "5",
+      "name": "Mat Leaf Accessories",
+      "image": "https://5.imimg.com/data5/CP/NV/MY-46728431/carpets-500x500.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Palm Leaf Crafts",
+      "image": "https://museumofpassion.wordpress.com/wp-content/uploads/2023/05/wp-16838025568587295214610183576961.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Eco-friendly Bags",
+      "image": "https://www.greengiving.eu/storage/_thumbs/500x400/Sfeerfotos/Jute-tassen(1).jpg"
+    },
+    {
+      "id": "8",
+      "name": "Handmade Jewelry",
+      "image": "https://5.imimg.com/data5/YS/PN/DX/ANDROID-82086164/product-jpeg.jpg"
+    }
+  ]
+}

@@ -1,7 +1,10 @@
+import BannerSlider from '../../Components/Home/Banner/BannerSlider';
+import ExploreCategory from '../../Components/Home/ExploreCategory/ExploreCategory';
 const Home = () => {
   return (
     <div>
-      <h2>Here is home page</h2>
+      <BannerSlider></BannerSlider>
+      <ExploreCategory></ExploreCategory>
     </div>
   );
 };

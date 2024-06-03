@@ -94,25 +94,6 @@ const NavItems = () => {
           </NavLink>
         )}
       </li>
-
-      {/* <li>
-        {user?.email ? (
-          <button
-            className={({ isActive, isPending }) =>
-              `px-3 py-2 rounded-md text-sm font-medium btn btn-primary ${
-                isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
-              } ${
-                isPending ? 'animate-pulse' : ''
-              } hover:bg-primaryBlue hover:text-white`
-            }
-            onClick={handleLogOut}
-          >
-            Logout
-          </button>
-        ) : (
-          ''
-        )}
-      </li> */}
     </>
   );
 };
