@@ -5,12 +5,12 @@ import { initializeApp } from 'firebase/app';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyDSpOx-w55shU920WQBIoFHPaqR_9XOPrY',
-  authDomain: 'simple-firebase-39ce2.firebaseapp.com',
-  projectId: 'simple-firebase-39ce2',
-  storageBucket: 'simple-firebase-39ce2.appspot.com',
-  messagingSenderId: '416994179995',
-  appId: '1:416994179995:web:a982bb0c95f3cca50dbf3e',
+  apiKey: 'AIzaSyDJHavMzjsZgdg02cxKVue3dIdkmmSfWow',
+  authDomain: 'greenish-bazaar.firebaseapp.com',
+  projectId: 'greenish-bazaar',
+  storageBucket: 'greenish-bazaar.appspot.com',
+  messagingSenderId: '881840462040',
+  appId: '1:881840462040:web:8e7459c6c795b582bb5fad',
 };
 
 // Initialize Firebase

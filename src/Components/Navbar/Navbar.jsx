@@ -62,7 +62,7 @@ const Navbar = () => {
             />
 
             <div className='hidden sm:block sm:ml-6'>
-              <ul className='flex space-x-4 '>
+              <ul className='flex space-x-4 items-center'>
                 <NavItems></NavItems>
               </ul>
             </div>

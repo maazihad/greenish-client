@@ -8,8 +8,8 @@ const NavItems = () => {
   const handleLogOut = () => {
     logOut()
       .then(() => toast.success(`Successfully logged out!`))
-      .catch(() => {
-        toast.error('Logout Failed.');
+      .catch((error) => {
+        toast.error(error.message);
       });
   };
   return (
@@ -74,20 +74,14 @@ const NavItems = () => {
       <li>
         {user?.email ? (
           <button
-            className={({ isActive, isPending }) =>
-              `px-3 py-2 rounded-md text-sm font-medium ${
-                isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
-              } ${
-                isPending ? 'animate-pulse' : ''
-              } hover:bg-primaryBlue hover:text-white`
-            }
             onClick={handleLogOut}
+            className='px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-primaryBlue hover:text-white'
           >
             Logout
           </button>
         ) : (
           <NavLink
-            to='/authentication'
+            to='/login'
             className={({ isActive, isPending }) =>
               `px-3 py-2 rounded-md text-sm font-medium ${
                 isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
@@ -100,6 +94,25 @@ const NavItems = () => {
           </NavLink>
         )}
       </li>
+
+      {/* <li>
+        {user?.email ? (
+          <button
+            className={({ isActive, isPending }) =>
+              `px-3 py-2 rounded-md text-sm font-medium btn btn-primary ${
+                isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
+              } ${
+                isPending ? 'animate-pulse' : ''
+              } hover:bg-primaryBlue hover:text-white`
+            }
+            onClick={handleLogOut}
+          >
+            Logout
+          </button>
+        ) : (
+          ''
+        )}
+      </li> */}
     </>
   );
 };

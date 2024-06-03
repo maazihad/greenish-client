@@ -1,39 +1,36 @@
-import {
-  FacebookAuthProvider,
-  GoogleAuthProvider,
-  getAuth,
-  signInWithPopup,
-} from 'firebase/auth';
-import { app } from '../../firebase/firebase.config';
+import toast from 'react-hot-toast';
+import useAuth from '../../hooks/useAuth';
 
 const SocialLogin = () => {
-  const auth = getAuth(app);
-  const googleProvider = new GoogleAuthProvider();
-  const facebookProvider = new FacebookAuthProvider();
+  const { googleSignIn, facebookSignIn } = useAuth();
 
   const handleSocialLogin = (platform) => {
     switch (platform) {
       case 'Google':
-        signInWithPopup(auth, googleProvider)
+        googleSignIn()
           .then((result) => {
             const user = result.user;
             console.log(user);
+            toast.success('Successfully Google Login.');
             return user;
           })
           .catch((error) => {
             console.log(error);
+            toast.error(error.message);
           });
         break;
 
       case 'Facebook':
-        signInWithPopup(auth, facebookProvider)
+        facebookSignIn()
           .then((result) => {
             const user = result.user;
             console.log(user);
+            toast.success('Successfully Facebook Login.');
             return user;
           })
           .catch((error) => {
             console.log(error);
+            toast.error(error.message);
           });
         break;
 
