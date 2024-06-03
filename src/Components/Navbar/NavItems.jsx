@@ -19,10 +19,10 @@ const NavItems = () => {
           to='/'
           className={({ isActive, isPending }) =>
             `px-3 py-2 rounded-md text-sm font-medium ${
-              isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
+              isActive ? 'bg-green-800 text-white' : 'text-gray-300'
             } ${
               isPending ? 'animate-pulse' : ''
-            } hover:bg-primaryBlue hover:text-white`
+            } hover:bg-green-800 hover:text-white`
           }
         >
           Home
@@ -33,10 +33,10 @@ const NavItems = () => {
           to='/about'
           className={({ isActive, isPending }) =>
             `px-3 py-2 rounded-md text-sm font-medium ${
-              isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
+              isActive ? 'bg-green-800 text-white' : 'text-gray-300'
             } ${
               isPending ? 'animate-pulse' : ''
-            } hover:bg-primaryBlue hover:text-white`
+            } hover:bg-green-800 hover:text-white`
           }
         >
           About
@@ -47,10 +47,10 @@ const NavItems = () => {
           to='/services'
           className={({ isActive, isPending }) =>
             `px-3 py-2 rounded-md text-sm font-medium ${
-              isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
+              isActive ? 'bg-green-800 text-white' : 'text-gray-300'
             } ${
               isPending ? 'animate-pulse' : ''
-            } hover:bg-primaryBlue hover:text-white`
+            } hover:bg-green-800 hover:text-white`
           }
         >
           Services
@@ -61,10 +61,10 @@ const NavItems = () => {
           to='/contact'
           className={({ isActive, isPending }) =>
             `px-3 py-2 rounded-md text-sm font-medium ${
-              isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
+              isActive ? 'bg-green-800 text-white' : 'text-gray-300'
             } ${
               isPending ? 'animate-pulse' : ''
-            } hover:bg-primaryBlue hover:text-white`
+            } hover:bg-green-800 hover:text-white`
           }
         >
           Contact
@@ -75,7 +75,7 @@ const NavItems = () => {
         {user?.email ? (
           <button
             onClick={handleLogOut}
-            className='px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-primaryBlue hover:text-white'
+            className='px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-green-800 hover:text-white'
           >
             Logout
           </button>
@@ -84,10 +84,10 @@ const NavItems = () => {
             to='/login'
             className={({ isActive, isPending }) =>
               `px-3 py-2 rounded-md text-sm font-medium ${
-                isActive ? 'bg-primaryBlue text-white' : 'text-gray-300'
+                isActive ? 'bg-green-800 text-white' : 'text-gray-300'
               } ${
                 isPending ? 'animate-pulse' : ''
-              } hover:bg-primaryBlue hover:text-white`
+              } hover:bg-green-800 hover:text-white`
             }
           >
             Login
