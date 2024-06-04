@@ -12,7 +12,7 @@ const Footer = () => {
           <Link to='/' className='text-white mx-2 hover:text-green-500'>
             Home
           </Link>
-          <Link to='/shop' className='text-white mx-2 hover:text-green-500'>
+          <Link to='/products' className='text-white mx-2 hover:text-green-500'>
             Shop
           </Link>
           <Link to='/about' className='text-white mx-2 hover:text-green-500'>
