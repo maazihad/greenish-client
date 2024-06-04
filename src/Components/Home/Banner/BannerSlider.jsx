@@ -14,7 +14,7 @@ const BannerSlider = () => {
     <section>
       <AwesomeSlider animation='cubeAnimation'>
         <div data-src={imgOne}>
-          <div className=' absolute inset-0 flex flex-col items-center justify-center text-center max-w-2xl ] mx-auto'>
+          <div className=' absolute inset-0 flex flex-col items-center justify-center text-center max-w-2xl mx-auto'>
             <div className='text-black text-lg bg-white bg-opacity-80 p-10 rounded-2xl'>
               <h2 className='text-green-900 text-5xl font-bold '>
                 Crafted by Nature

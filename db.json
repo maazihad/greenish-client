@@ -1,4 +1,186 @@
 {
+  "products": [
+    {
+      "id": "1",
+      "product_title": "Handwoven Rattan Chair",
+      "product_img": "https://www.sunset.com/wp-content/uploads/castlery-Mico-Armchiar-Sectional-Set-pr-0222-1000x600.jpeg",
+      "product_category": "Furniture",
+      "product_info": "A beautifully handwoven rattan chair perfect for any living space. This eco-friendly and durable chair is designed to add a touch of elegance to your home while being sustainable. It's lightweight yet sturdy, making it an ideal addition to any room.",
+      "product_features": [
+        "Handwoven",
+        "Eco-friendly",
+        "Durable",
+        "Lightweight",
+        "Elegant design"
+      ],
+      "rating": 4.5,
+      "price": 120,
+      "product_available": true,
+      "reviews": 34
+    },
+    {
+      "id": "2",
+      "product_title": "Jute Storage Basket",
+      "product_img": "https://images-cdn.ubuy.ae/6355e00fc4c0d760d071b614-rattan-storage-baskets-3-pack.jpg",
+      "product_category": "Home Decor",
+      "product_info": "This handmade jute storage basket is perfect for organizing your home. Its natural fibers and stylish design make it a versatile piece that can be used in any room. The basket is durable, eco-friendly, and provides ample storage space.",
+      "product_features": [
+        "Handmade",
+        "Eco-friendly",
+        "Durable",
+        "Versatile",
+        "Ample storage"
+      ],
+      "rating": 4.7,
+      "price": 45,
+      "product_available": true,
+      "reviews": 18
+    },
+    {
+      "id": "3",
+      "product_title": "Bamboo Cutting Board",
+      "product_img": "https://images.othoba.com/images/thumbs/0593043_bamboo-cutting-and-chopping-board-with-stainless-steel-handle-copy.jpeg",
+      "product_category": "Kitchen",
+      "product_info": "Our bamboo cutting board is a must-have for any kitchen. Made from 100% organic bamboo, this board is not only durable but also gentle on your knives. It's easy to clean and naturally resistant to bacteria, making it a hygienic choice for food preparation.",
+      "product_features": [
+        "100% organic bamboo",
+        "Durable",
+        "Gentle on knives",
+        "Easy to clean",
+        "Bacteria resistant"
+      ],
+      "rating": 4.8,
+      "price": 25,
+      "product_available": true,
+      "reviews": 22
+    },
+    {
+      "id": "4",
+      "product_title": "Wooden Coasters Set",
+      "product_img": "https://i.etsystatic.com/18110078/r/il/34835b/1629043404/il_300x300.1629043404_5crx.jpg",
+      "product_category": "Kitchen",
+      "product_info": "Protect your surfaces with our handmade wooden coasters. Each coaster is crafted from high-quality wood and features a unique, natural grain pattern. These coasters are perfect for any home and make a great gift.",
+      "product_features": [
+        "Handmade",
+        "High-quality wood",
+        "Unique grain pattern",
+        "Protects surfaces",
+        "Great gift"
+      ],
+      "rating": 4.6,
+      "price": 20,
+      "product_available": true,
+      "reviews": 15
+    },
+    {
+      "id": "5",
+      "product_title": "Palm Leaf Wall Hanging",
+      "product_img": "https://www.shutterstock.com/shutterstock/photos/1380237518/display_1500/stock-photo-wicker-products-from-palm-leaves-traditional-laos-souvenirs-different-size-bowls-made-from-palm-1380237518.jpg",
+      "product_category": "Home Decor",
+      "product_info": "Add a touch of nature to your home with our palm leaf wall hanging. This decorative piece is handcrafted from natural palm leaves and is perfect for creating a bohemian vibe in any room. It's lightweight and easy to hang.",
+      "product_features": [
+        "Handcrafted",
+        "Natural palm leaves",
+        "Bohemian vibe",
+        "Lightweight",
+        "Easy to hang"
+      ],
+      "rating": 4.4,
+      "price": 30,
+      "product_available": true,
+      "reviews": 12
+    },
+    {
+      "id": "6",
+      "product_title": "Mat Leaves Table Runner",
+      "product_img": "https://i.ebayimg.com/images/g/AzYAAOSw6mxiuDUi/s-l1200.webp",
+      "product_category": "Home Decor",
+      "product_info": "Enhance your dining experience with our mat leaves table runner. This unique piece is handmade from natural mat leaves and adds a rustic charm to your table setting. It's perfect for both everyday use and special occasions.",
+      "product_features": [
+        "Handmade",
+        "Natural mat leaves",
+        "Rustic charm",
+        "Durable",
+        "Perfect for any occasion"
+      ],
+      "rating": 4.5,
+      "price": 35,
+      "product_available": true,
+      "reviews": 20
+    },
+    {
+      "id": "7",
+      "product_title": "Bamboo Utensil Set",
+      "product_img": "https://totallybamboo.com/cdn/shop/products/20-9634Marrakesh7pc_Group.jpg?v=1627358991",
+      "product_category": "Kitchen",
+      "product_info": "Our bamboo utensil set is a sustainable and stylish addition to your kitchen. This set includes a spoon, fork, and knife, all made from 100% bamboo. They are lightweight, durable, and easy to clean, making them perfect for everyday use.",
+      "product_features": [
+        "100% bamboo",
+        "Lightweight",
+        "Durable",
+        "Easy to clean",
+        "Stylish design"
+      ],
+      "rating": 4.7,
+      "price": 15,
+      "product_available": true,
+      "reviews": 25
+    },
+    {
+      "id": "8",
+      "product_title": "Rattan Storage Basket",
+      "product_img": "https://m.media-amazon.com/images/I/81bdPV3tLtL._AC_SL1500_.jpg",
+      "product_category": "Home Decor",
+      "product_info": "Keep your home organized with our rattan storage basket. This basket is handwoven from natural rattan and is both stylish and functional. It's perfect for storing toys, blankets, or any other household items.",
+      "product_features": [
+        "Handwoven",
+        "Natural rattan",
+        "Stylish",
+        "Functional",
+        "Versatile storage"
+      ],
+      "rating": 4.6,
+      "price": 40,
+      "product_available": true,
+      "reviews": 14
+    },
+    {
+      "id": "9",
+      "product_title": "Palm Leaf Basket",
+      "product_img": "https://sedasmiracle.com/wp-content/uploads/2022/02/handgemaakte-marokkaanse-wasmand-van-palmblad.jpg",
+      "product_category": "Home Decor",
+      "product_info": "Our palm leaf basket is a versatile and eco-friendly storage solution. Handcrafted from natural palm leaves, this basket is durable and stylish. It's perfect for storing laundry, toys, or as a decorative piece.",
+      "product_features": [
+        "Handcrafted",
+        "Natural palm leaves",
+        "Durable",
+        "Versatile",
+        "Eco-friendly"
+      ],
+      "rating": 4.5,
+      "price": 35,
+      "product_available": true,
+      "reviews": 16
+    },
+    {
+      "id": "10",
+      "product_title": "Mat Leaves Placemats",
+      "product_img": "https://www.unisonhome.com/media/catalog/product/1/0/102643_1.jpg?quality=80&fit=bounds&height=700&width=700&canvas=700:700",
+      "product_category": "Kitchen",
+      "product_info": "Protect your table with our mat leaves placemats. These handmade placemats are crafted from natural mat leaves and add a rustic touch to your dining experience. They are durable and easy to clean.",
+      "product_features": [
+        "Handmade",
+        "Natural mat leaves",
+        "Rustic touch",
+        "Durable",
+        "Easy to clean"
+      ],
+      "rating": 4.6,
+      "price": 25,
+      "product_available": true,
+      "reviews": 18
+    }
+  ],
   "exploreCategory": [
     {
       "id": "1",
@@ -13,12 +195,12 @@
     {
       "id": "3",
       "name": "Bamboo Furniture",
-      "image": "https://qph.cf2.quoracdn.net/main-qimg-2b33d1427f0cc6b09f4370cc718141f5-lq"
+      "image": "https://www.shutterstock.com/image-photo/beautiful-bamboo-furniture-works-handicraft-600nw-2249039273.jpg"
     },
     {
       "id": "4",
       "name": "Wooden Decor",
-      "image": "https://www.sowpeace.in/cdn/shop/products/the-boat-of-hopesowpeacewoodwdhbwdntt-729903.jpg?v=1698021847&width=533"
+      "image": "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/654cddbf03b7126c833851d5/1_0069_dsc00456-640x640.jpg"
     },
     {
       "id": "5",

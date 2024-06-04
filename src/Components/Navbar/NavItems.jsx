@@ -44,7 +44,7 @@ const NavItems = () => {
       </li>
       <li>
         <NavLink
-          to='/services'
+          to='/products'
           className={({ isActive, isPending }) =>
             `px-3 py-2 rounded-md text-sm font-medium ${
               isActive ? 'bg-green-800 text-white' : 'text-gray-300'
@@ -53,7 +53,7 @@ const NavItems = () => {
             } hover:bg-green-800 hover:text-white`
           }
         >
-          Services
+          Products
         </NavLink>
       </li>
       <li>
