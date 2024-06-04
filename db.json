@@ -105,7 +105,7 @@
       ],
       "rating": 4.5,
       "price": 35,
-      "product_available": true,
+      "product_available": false,
       "reviews": 20
     },
     {
@@ -141,7 +141,7 @@
       ],
       "rating": 4.6,
       "price": 40,
-      "product_available": true,
+      "product_available": false,
       "reviews": 14
     },
     {

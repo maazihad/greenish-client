@@ -50,15 +50,15 @@ export default Products;
 //           <span className='text-gray-900 font-bold'>${product.price}</span>
 //           <span className='text-yellow-500'>{`Rating: ${product.rating}`}</span>
 //         </div>
-//         <div className='mt-4'>
-//           <button
-//             className={`w-full bg-${
-//               product.product_available ? 'green' : 'red'
-//             }-500 text-white font-bold py-2 px-4 rounded`}
-//           >
-//             {product.product_available ? 'Add to Cart' : 'Out of Stock'}
-//           </button>
-//         </div>
+// <div className='mt-4'>
+//   <button
+//     className={`w-full bg-${
+//       product.product_available ? 'green' : 'red'
+//     }-500 text-white font-bold py-2 px-4 rounded`}
+//   >
+//     {product.product_available ? 'Add to Cart' : 'Out of Stock'}
+//   </button>
+// </div>
 //       </div>
 //     </div>
 //   ));
